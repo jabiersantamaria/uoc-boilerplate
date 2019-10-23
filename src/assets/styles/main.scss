@@ -1,27 +1,27 @@
-// *------------------------------------*\
-// Aspire Themes Main Style
-// *------------------------------------*/
+/**
+ * Import variables
+ */
 
-// SETTINGS
-@import 'settings/_all';
+@import "variables";
 
-// TOOLS
-@import 'tools/_all';
+/**
+ * Import npm dependencies
+ * see: https://en.parceljs.org/module_resolution.html
+ * see commented examples below
+ */
 
-// GENERIC
-@import 'generic/_all';
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
 
-// VENDOR
-@import 'vendor/_all';
+@import "@fortawesome/fontawesome-free/css/all.css";
 
-// ELEMENTS
-@import 'elements/_all';
+/**
+ * Import layouts
+ * It's a best practice to use a partial for each page
+ */
 
-// OBJECTS
-@import 'objects/_all';
+@import "layouts/home";
 
-// Components
-@import 'components/_all';
-
-// TRUMPS
-@import 'trumps/_all';
+/**
+ * Do NOT include anything else in this file!
+ */

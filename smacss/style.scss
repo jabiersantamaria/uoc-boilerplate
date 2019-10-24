@@ -1,4 +1,4 @@
- /*
+/*
  * SMACSS + SCSS starter v2.1
  * Inspired by SMACSS http://smacss.com
  * Author: @jonathanpath
@@ -15,14 +15,18 @@
 @import "site-settings";
 
 /* Vendor */
-@import "@fortawesome/fontawesome-free/css/all.css";
+//@import "vendor/bootstrap";
+//@import "vendor/foundation";
+
+/* Override */
+//@import "vendor-override/bootsrap";
+//@import "vendor-override/foundation";
 
 /* Base */
 @import "base";
 
 /* Layouts */
-@import "layouts/section";
-@import "layouts/home";
+@import "layout/constrained";
 
-/* States */
-@import "states";
+/* Modules */
+@import "modules/box";

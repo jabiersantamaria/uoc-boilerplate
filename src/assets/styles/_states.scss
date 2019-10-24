@@ -1,0 +1,70 @@
+@media all and (min-width: 602px) and (max-width: 800px) {
+    .photo {
+        display: none;
+    }
+    
+    .curriculumContent_skills {
+    -moz-column-count:2;
+    -webkit-column-count:2;
+    column-count:2;
+    }
+}
+
+@media all and (max-width: 601px) {
+    .curriculum {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px;
+    }
+    
+    .photo {
+        display: none;
+    }
+    
+    .name, .contactDetails {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .curriculumTitle, .curriculumContent {
+        float: none;
+        width: 100%;
+    }
+    
+    .curriculumTitle {
+        margin-left: -2px;
+        font-size: 1.25em;
+    }
+    
+    .curriculumContent_skills {
+        -moz-column-count:2;
+        -webkit-column-count:2;
+        column-count:2;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .contactData {
+        padding: 15px 15px;
+    }
+    
+    section {
+        padding: 15px 0 0;
+    }
+    
+    .curriculumData {
+        padding: 0 25px;
+    }
+    
+    .curriculumContent_skills {
+    -moz-column-count:1;
+    -webkit-column-count:1;
+    column-count:1;
+    }
+    
+    .name h1 {
+        line-height: .8em;
+        margin-bottom: 4px;
+    }
+}

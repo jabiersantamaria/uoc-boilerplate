@@ -8,27 +8,6 @@
   background: $color-border-section;
 }
 
-.name {
-  float: left;
-
-  & h1 {
-    font-size: 2em;
-    font-weight: 700;
-    font-family: $font1;
-    margin-bottom: -6px;
-  }
-
-  & h2 {
-    font-size: 1.5em;
-    margin-left: 2px;
-    font-family: $font1;
-  }
-}
-
-.curriculumData {
-  padding: 0 40px;
-}
-
 .photo {
   width: 12.5%;
   float: left;
@@ -41,7 +20,26 @@
   }
 }
 
+.contactName {
+  float: left;
+
+  & h1 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: $font1;
+    margin-top: 0px;
+    margin-bottom: -6px;
+  }
+
+  & h2 {
+    font-size: 1.5em;
+    margin-left: 2px;
+    font-family: $font1;
+  }
+}
+
 .contactDetails {
+  margin-top: 6px;
   float: right;
 
   & ul {
@@ -63,4 +61,8 @@
       }
     }
   }
+}
+
+.curriculumData {
+  padding: 0 40px;
 }

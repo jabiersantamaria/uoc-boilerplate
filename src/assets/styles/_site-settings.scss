@@ -8,17 +8,18 @@
 $font1: Helvetica, Arial, sans-serif;
 
 // = Colors
-// -----------------------------
 
-// Graphic chart
 $color-bg:  #181818;
-$color-bg-curriculum: #f3f3f3;
+$color-bg-curriculum: white;
 
 $color-font-heading: #222;
-$color-font-paragraph: #444;
-$color-font-details: #cf8a05;
+$color: lighten(#222, 20);
+// $color-font-paragraph: #444;
+$color-font-paragraph: lighten($color-font-heading, 30);
+$color-font-details: black;
 
 $color-border-section: #dedede;
-$color-border-contact: #cf8a05;
+$color-border-contact: black;
 
-$color-link: #cf8a05;
+$color-link: black;
+

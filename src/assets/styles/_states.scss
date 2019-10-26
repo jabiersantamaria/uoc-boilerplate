@@ -3,7 +3,7 @@
     display: none;
   }
 
-  .curriculumContent_skills {
+  .curriculumContent__skills {
     column-count: 2;
   }
 }
@@ -19,7 +19,7 @@
     display: none;
   }
 
-  .name,
+  .contactName,
   .contactDetails {
     float: none;
     width: 100%;
@@ -37,7 +37,7 @@
     font-size: 1.25em;
   }
 
-  .curriculumContent_skills {
+  .curriculumContent__skills {
     column-count: 2;
   }
 }
@@ -55,11 +55,11 @@
     padding: 0 25px;
   }
 
-  .curriculumContent_skills {
+  .curriculumContent__skills {
     column-count: 1;
   }
 
-  .name h1 {
+  .contactName h1 {
     line-height: 0.8em;
     margin-bottom: 4px;
   }

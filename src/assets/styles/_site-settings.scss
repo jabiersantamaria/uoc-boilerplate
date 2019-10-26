@@ -15,6 +15,7 @@ $color-bg-curriculum: white;
 $color-font-heading: #222;
 $color: lighten(#222, 20);
 // $color-font-paragraph: #444;
+// https://www.tutorialsteacher.com/sass/sass-color-functions
 $color-font-paragraph: lighten($color-font-heading, 30);
 $color-font-details: black;
 

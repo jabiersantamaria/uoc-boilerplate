@@ -3,7 +3,6 @@
    ======================= */
 
 @media all and (max-width: $terminal-size-big) {
-
   .photo {
     display: none;
   }
@@ -14,7 +13,6 @@
 }
 
 @media all and (max-width: $terminal-size-medium) {
-
   .curriculum {
     width: 95%;
     margin: 10px auto;
@@ -49,7 +47,6 @@
 }
 
 @media all and (max-width: $terminal-size-small) {
-
   .contactData {
     padding: 15px 15px;
   }

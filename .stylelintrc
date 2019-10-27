@@ -4,6 +4,10 @@
     "stylelint-scss"
   ],
   "rules": {
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "unit-whitelist": ["em", "rem", "%", "s"],
+
     "selector-nested-pattern": "^&",
     "indentation": 2,
     "no-descending-specificity": null,

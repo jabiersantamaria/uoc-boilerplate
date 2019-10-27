@@ -1,4 +1,9 @@
-@media all and (min-width: 602px) and (max-width: 800px) {
+/* ==|====================
+   Media states
+   ======================= */
+
+@media all and (max-width: $terminal-size-big) {
+
   .photo {
     display: none;
   }
@@ -8,7 +13,8 @@
   }
 }
 
-@media all and (max-width: 601px) {
+@media all and (max-width: $terminal-size-medium) {
+
   .curriculum {
     width: 95%;
     margin: 10px auto;
@@ -42,7 +48,8 @@
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: $terminal-size-small) {
+
   .contactData {
     padding: 15px 15px;
   }
